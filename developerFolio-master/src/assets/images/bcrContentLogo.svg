@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Bus Click Raipur">
+  <defs>
+    <linearGradient id="bcrGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#833ab4"/>
+      <stop offset="50%" style="stop-color:#fd1d1d"/>
+      <stop offset="100%" style="stop-color:#fcb045"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bcrGrad)"/>
+  <rect x="35" y="95" width="130" height="55" rx="12" fill="#ffffff" opacity="0.95"/>
+  <rect x="45" y="70" width="70" height="35" rx="8" fill="#ffffff" opacity="0.95"/>
+  <circle cx="155" cy="85" r="12" fill="#ffffff" opacity="0.95"/>
+  <text x="100" y="132" text-anchor="middle" fill="#833ab4" font-family="Arial,sans-serif" font-size="28" font-weight="700">BCR</text>
+</svg>

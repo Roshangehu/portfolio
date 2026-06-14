@@ -1,0 +1,56 @@
+@import "../../_globalColor";
+
+.achievement-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+.achievement-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.subTitle {
+  color: $subTitle;
+}
+
+.achievement-highlights-section {
+  margin-bottom: 4rem;
+}
+
+.achievement-highlights-list {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+
+  li {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+    padding-left: 0.75rem;
+    border-left: 3px solid $buttonColor;
+  }
+}
+
+.dark-mode.achievement-highlights-list li {
+  color: $textColorDark;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .achievement-heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .achievement-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .achievement-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}

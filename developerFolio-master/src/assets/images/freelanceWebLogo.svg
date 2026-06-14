@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Freelance Web Development">
+  <defs>
+    <linearGradient id="freelanceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#55198b"/>
+      <stop offset="100%" style="stop-color:#8c43ce"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#freelanceGrad)"/>
+  <rect x="45" y="55" width="110" height="75" rx="8" fill="#ffffff" opacity="0.95"/>
+  <rect x="45" y="55" width="110" height="18" rx="8" fill="#e8e8e8"/>
+  <circle cx="58" cy="64" r="4" fill="#ff6b6b"/>
+  <circle cx="72" cy="64" r="4" fill="#ffd93d"/>
+  <circle cx="86" cy="64" r="4" fill="#6bcb77"/>
+  <text x="100" y="108" text-anchor="middle" fill="#55198b" font-family="monospace" font-size="22" font-weight="700">&lt;/&gt;</text>
+</svg>

@@ -1,0 +1,47 @@
+@import "../../_globalColor";
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-subtitle {
+  margin-bottom: 1.5rem;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: $textColor;
+  margin-bottom: 1.5rem;
+}
+
+.dark-mode.about-description {
+  color: $textColorDark;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+    color: $textColor;
+    padding-left: 0.5rem;
+    border-left: 3px solid $buttonColor;
+  }
+}
+
+.dark-mode.about-list li {
+  color: $textColorDark;
+}
+
+@media (max-width: 768px) {
+  .about-description,
+  .about-list li {
+    font-size: 1rem;
+  }
+}
